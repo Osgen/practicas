@@ -11,35 +11,55 @@
         crossorigin="anonymous">
 
     <title>Hello, world!</title>
+
+    <style>
+        .head-list{
+            content: "";
+            border-left: 1px solid #e2e2e2;
+            margin-top: 3px;
+        }
+
+        .bg-red-color{
+            background-color:#c00;
+        }
+
+        .text-red-color{
+            color: #c00;
+        }
+
+        .btn-border{
+            border: 1px solid #e2e2e2;
+        }
+    </style>
 </head>
 
 <body>
-<div class="container fixed-top">
-
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
-        <a class="navbar-brand ml-5 pl-5" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
-            aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-            <ul class="navbar-nav ml-auto ml-5 mr-5 mt-lg-0 pr-5 ">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link disabled" href="#">Disabled</a>
-                </li>
-                <li class="nav-item">
-                        <a class="nav-link" href="#">555-555-555</a>
-                    </li>
-            </ul>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="pr-5 mr-5"></div>
+        <a class="navbar-brand mr-5 head-list" href="#">
+        <img src="cuidateplus.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+        CuidatePlus
+        </a>
+        <a class="navbar-brand mr-1 head-list" href="#">
+        <img src="trending.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+        Lo+Trending
+        </a>
+        <div class="pr-5 mr-5 pl-5 ml-5"></div>
+        <a class="navbar-brand" href="#">
+            <img src="marca.png" width="30" height="30" class="d-inline-block align-top" alt="">
+        </a>
+        <div class="dropdown show">
+            <a class="btn dropdown-toggle btn-border" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Mx
+            </a>
+        </div>
+        <div>
+            <button type="button" class="btn bg-red-color text-light ">Suscribete</button>
+            <button type="button" class="btn bg-light text-red-color btn-border">Suscribete</button>
         </div>
     </nav>
+<div class="container fixed-top">
+
 </div>
 
     <div id="carouselExampleIndicators" style="padding-right: 0px; padding-left: 0px;" class="carousel slide col-12 mb-4"
