@@ -25,7 +25,7 @@
             background-color: #c00;
         }
 
-        .bg-grey-color{
+        .bg-grey-color {
             background-color: #eeeeee;
         }
 
@@ -77,14 +77,36 @@
             opacity: 70%;
         }
 
-        .icons-size{
+        .icons-size {
             font-size: 16pt;
         }
-        img+img{
+
+        img+img {
             margin-right: 8px;
         }
-        .logos-container>img:hover{
+
+        .logos-container>img:hover {
             cursor: pointer;
+        }
+
+        .carrousel-arrows {
+            background-color: #cfcfcf;
+            width: 25px !important;
+            height: 40px !important;
+        }
+
+        .card-changes{
+            border: 0px !important;
+            border-radius: 0% !important;
+        }
+
+        .card-title-new{
+            cursor: pointer;
+            
+        }
+
+        .card-title-new:hover{
+            color: grey;
         }
     </style>
 </head>
@@ -129,7 +151,8 @@
                 <!-- </div> -->
                 <button type="button" class="btn bg-red-color text-light btn-sm"
                     style="font-weight: 700;">Suscribete</button>
-                <button type="button" class="btn bg-light text-red-color btn-border btn-sm" style="font-weight: 700;">Iniciar sesión</button>
+                <button type="button" class="btn bg-light text-red-color btn-border btn-sm"
+                    style="font-weight: 700;">Iniciar sesión</button>
             </div>
             <div class="col-1"></div>
         </div>
@@ -171,7 +194,8 @@
             </div>
             <div class="col-3 text-center">
                 <form class="form-inline">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Buscar en marca.com" aria-label="Search">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Buscar en marca.com"
+                        aria-label="Search">
                     <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
                 </form>
             </div>
@@ -208,7 +232,70 @@
             <div class="col-3"></div>
         </div>
     </div>
+    <!-- carrousel -->
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-12">
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class=""></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item ">
+                            <img class="d-block w-100" src="../images/m1.png" alt="First slide">
+                            <div class="carousel-caption d-none d-md-block">
+                                <!-- <!-- <h5>First</h5> --> -->
+                                <!-- <p>slide</p> -->
+                            </div>
+                        </div>
+                        <div class="carousel-item active">
+                            <img class="d-block w-100" src="../images/m1.png" alt="Second slide">
+                            <div class="carousel-caption d-none d-md-block">
+                                <!-- <!-- <h5>Second</h5> --> -->
+                                <!-- <p>Slide</p> -->
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="../images/m1.png" alt="Third slide">
+                            <div class="carousel-caption d-none d-md-block">
+                                <!-- <!-- <h5>Abuelita chida </h5> --> -->
+                                <!-- <p>Tercer slide</p> -->
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon carrousel-arrows" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon carrousel-arrows" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
 
+    <!-- main card-image -->
+    <div class="container mt-3">
+        <div class="row">
+            <div class="col-8">
+                <div class="card bg-dark text-white card-changes">
+                    <img src="../images/card1.jpg" class="card-img" alt="...">
+                    <span class="card-img-overlay" > <mark style="background-color: #3498d8; color:white;" >FC BARCELONA</mark></span>
+                    <div class="card-img-overlay" style="margin-top: 30%;">
+                        <p class="card-text">Sin Umtiti, Piqué y Lenglet ya lo han jugado todo</p>
+                      <h1 class="card-title card-title-new  ">El problema que se avecina en el Barca</h1>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-4">
+
+            </div>
+        </div>
+    </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
