@@ -145,3 +145,11 @@ div.last-name-author {
 a+a{
     margin-left: 10px;
 }
+
+.navlink{
+    color:white;
+}
+
+.navlink:hover{
+    color:white;
+}
