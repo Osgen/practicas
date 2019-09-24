@@ -1,0 +1,147 @@
+.head-list {
+    content: "";
+    border-left: 1px solid #e2e2e2;
+    margin-top: 3px;
+}
+
+.bg-red-color {
+    background-color: #c00;
+}
+
+.bg-grey-color {
+    background-color: #eeeeee;
+}
+
+.bg-black-color{
+    background-color: #202225;
+}
+
+.text-red-color {
+    color: #c00;
+}
+
+.btn-border {
+    border: 1px solid #e2e2e2;
+}
+
+.first-navbar-text {
+    color: black;
+    font-size: 9pt !important;
+    font-weight: 600;
+}
+
+.first-navbar-text:hover {
+    color: #c00;
+    cursor: pointer;
+}
+
+.nabvar2-text {
+    font-size: 14pt;
+    color: white;
+    font-weight: bolder;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.nabvar2-text-link {
+    color: white;
+    font-size: 12pt;
+}
+
+.nabvar2-text:hover {
+    background-color: black;
+    color: white;
+}
+
+.span-text {
+    font-size: 14pt;
+    color: white;
+    font-weight: bolder;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.span-text:hover {
+    cursor: pointer;
+    opacity: 70%;
+}
+
+.icons-size {
+    font-size: 16pt;
+}
+
+img+img {
+    margin-right: 8px;
+}
+
+.logos-container>img:hover {
+    cursor: pointer;
+}
+
+.carrousel-arrows {
+    background-color: #cfcfcf;
+    width: 25px !important;
+    height: 40px !important;
+}
+
+.card-changes {
+    border: 0px !important;
+    border-radius: 0% !important;
+}
+
+.card-title-new {
+    cursor: pointer;
+
+}
+
+.card-title-new:hover {
+    color: grey;
+}
+
+span.last-name-author {
+    color: grey;
+    font-size: 8pt;
+}
+
+div.last-name-author {
+    font-size: 8pt;
+}
+
+.comment-icon {
+    font-size: initial;
+    color: grey;
+}
+.comment-amount{
+    color: #c00;
+    font-weight: bolder;
+}
+
+.div-comment:hover i{
+    cursor: pointer;
+    color: #c00;
+}
+
+.little-card-title{
+    color: #3498d8;
+}
+
+.little-card-text:hover{
+    cursor: pointer;
+    color: grey;
+}
+
+.little-card-divider{
+    margin-bottom: 12%;
+}
+
+
+.footer-jumbotron{
+    padding-top: 1%;
+    padding-bottom: 2%;
+}
+
+.card-title{
+    font-weight: 700;
+}
+
+a+a{
+    margin-left: 10px;
+}

@@ -12,107 +12,16 @@
 
     <link rel="stylesheet" href="../libs/css/font-awesome-4.7.0/css/font-awesome.min.css">
 
+    <!-- ########################################## CUSTOM CSS ##########################################-->
+    <link rel="stylesheet" href="../libs/css/p4.css">
+
     <title>Hello, world!</title>
 
-    <style>
-        .head-list {
-            content: "";
-            border-left: 1px solid #e2e2e2;
-            margin-top: 3px;
-        }
 
-        .bg-red-color {
-            background-color: #c00;
-        }
-
-        .bg-grey-color {
-            background-color: #eeeeee;
-        }
-
-        .text-red-color {
-            color: #c00;
-        }
-
-        .btn-border {
-            border: 1px solid #e2e2e2;
-        }
-
-        .first-navbar-text {
-            color: black;
-            font-size: 9pt !important;
-            font-weight: 600;
-        }
-
-        .first-navbar-text:hover {
-            color: #c00;
-            cursor: pointer;
-        }
-
-        .nabvar2-text {
-            font-size: 14pt;
-            color: white;
-            font-weight: bolder;
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        }
-
-        .nabvar2-text-link {
-            color: white;
-            font-size: 12pt;
-        }
-
-        .nabvar2-text:hover {
-            background-color: black;
-            color: white;
-        }
-
-        .span-text {
-            font-size: 14pt;
-            color: white;
-            font-weight: bolder;
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        }
-
-        .span-text:hover {
-            cursor: pointer;
-            opacity: 70%;
-        }
-
-        .icons-size {
-            font-size: 16pt;
-        }
-
-        img+img {
-            margin-right: 8px;
-        }
-
-        .logos-container>img:hover {
-            cursor: pointer;
-        }
-
-        .carrousel-arrows {
-            background-color: #cfcfcf;
-            width: 25px !important;
-            height: 40px !important;
-        }
-
-        .card-changes{
-            border: 0px !important;
-            border-radius: 0% !important;
-        }
-
-        .card-title-new{
-            cursor: pointer;
-            
-        }
-
-        .card-title-new:hover{
-            color: grey;
-        }
-    </style>
 </head>
 
 <body>
-    <!-- Fist navbar -->
+    <!-- ########################################## Fist navbar ##########################################-->
     <div class="container-fluid">
         <div class="row mt-2 mb-1">
             <div class="col-1"></div>
@@ -157,7 +66,7 @@
             <div class="col-1"></div>
         </div>
     </div>
-    <!-- Second navbar -->
+    <!-- ########################################## Second navbar ##########################################-->
     <div class="container-fluid bg-red-color pb-1 pt-1">
         <div class="row">
             <div class="col-1"></div>
@@ -202,7 +111,7 @@
             <div class="col-1"></div>
         </div>
     </div>
-    <!-- Third Navbar -->
+    <!-- ########################################## Third Navbar ##########################################-->
     <div class="container-fluid bg-grey-color pb-1 pt-1">
         <div class="row">
             <div class="col-2"></div>
@@ -232,7 +141,7 @@
             <div class="col-3"></div>
         </div>
     </div>
-    <!-- carrousel -->
+    <!-- ########################################## Carrousel ##########################################-->
     <div class="container mt-5">
         <div class="row">
             <div class="col-12">
@@ -278,24 +187,441 @@
         </div>
     </div>
 
-    <!-- main card-image -->
+    <!-- ########################################## PAGE BODY MAINLY CARDS - NEWS ##########################################-->
     <div class="container mt-3">
+        <!-- ########################################## Big card image and Three small one after carrousel ##########################################-->
         <div class="row">
+            <!-- Big card image  -->
             <div class="col-8">
                 <div class="card bg-dark text-white card-changes">
                     <img src="../images/card1.jpg" class="card-img" alt="...">
-                    <span class="card-img-overlay" > <mark style="background-color: #3498d8; color:white;" >FC BARCELONA</mark></span>
+                    <span class="card-img-overlay"> <mark style="background-color: #3498d8; color:white;">FC
+                            BARCELONA</mark></span>
                     <div class="card-img-overlay" style="margin-top: 30%;">
                         <p class="card-text">Sin Umtiti, Piqué y Lenglet ya lo han jugado todo</p>
-                      <h1 class="card-title card-title-new  ">El problema que se avecina en el Barca</h1>
+                        <h1 class="card-title card-title-new  ">El problema que se avecina en el Barca</h1>
                     </div>
-                  </div>
+                </div>
+                <div class="mt-3">
+                    <div class="last-name-author" style="margin-bottom: 5px;">
+                        JOSÉ FÉLIX DÍAZ
+                        <span class="last-name-author"> MILÁN</span>
+                        <div class="pull-right div-comment">
+                            <i class="fa fa-comments comment-icon" aria-hidden="true"></i>
+                            <span class="comment-amount">1450</span>
+                        </div>
+                    </div>
+                    <hr style="margin-top: initial;">
+                </div>
             </div>
+            <!-- Three small card on left -->
             <div class="col-4">
+                <div class="media">
+                    <img src="../images/card2.jpg" class="mr-3" alt="...">
+                    <div class="media-body">
+                        <div class="mt-0 little-card-title">LO QUE NUNCA PASÓ</div>
+                        <h5 class="little-card-text card-title">Nacer en el espacio como astroboy</h5>
+                        <div class="pull-right div-comment">
+                            <i class="fa fa-comments comment-icon" aria-hidden="true"></i>
+                            <span class="comment-amount" style="font-size: 8pt;">1450</span>
+                        </div>
+                    </div>
+                </div>
+                <hr class="little-card-divider">
+                <div class="media">
+                    <img src="../images/card2.jpg" class="mr-3" alt="...">
+                    <div class="media-body">
+                        <div class="mt-0 little-card-title">LO QUE SI PASÓ</div>
+                        <h5 class="little-card-text card-title">Nacer en esta tierra hermosa</h5>
+                        <div class="pull-right div-comment">
+                            <i class="fa fa-comments comment-icon" aria-hidden="true"></i>
+                            <span class="comment-amount" style="font-size: 8pt;">40</span>
+                        </div>
+                    </div>
 
+                </div>
+                <hr class="little-card-divider">
+                <div class="media">
+                    <img src="../images/card2.jpg" class="mr-3" alt="...">
+                    <div class="media-body">
+                        <div class="mt-0 little-card-title">LO QUE QUIERO QUE PASE</div>
+                        <h5 class="little-card-text card-title">Vivir</h5>
+                        <div class="pull-right div-comment">
+                            <i class="fa fa-comments comment-icon" aria-hidden="true"></i>
+                            <span class="comment-amount" style="font-size: 8pt;">5300</span>
+                        </div>
+                    </div>
+                </div>
+                <hr class="little-card-divider">
+            </div>
+        </div>
+        <!-- ########################################## First row of Tow middle cards in a row ##########################################-->
+        <div class="row">
+            <!-- Middle card One -->
+            <div class="col-4">
+                <img src="../images/medimg1.jpg" class="img-fluid" alt="">
+                <span class="card-img-overlay">
+                    <mark style="background-color: #3498d8; color:white;">THE BEST FIFA 2019</mark>
+                </span>
+                <p style="margin-top:7px; margin-bottom:auto;">Estuvo bien loco el evento</p>
+                <div class="last-name-author" style="margin-bottom: 5px;">
+                    <h5 class="card-title"> Anoma que buen evento</h5>
+                    <div class="pull-right div-comment">
+                        <i class="fa fa-comments comment-icon" aria-hidden="true"></i>
+                        <span class="comment-amount">1450</span>
+                    </div>
+                </div>
+                <hr style="margin-top: 2rem;">
+            </div>
+            <!-- Middle card Two -->
+            <div class="col-4">
+                <img src="../images/medimg2.jpg" class="img-fluid" alt="">
+                <span class="card-img-overlay">
+                    <mark style="background-color: #3498d8; color:white;">THE BEST FIFA 2019</mark>
+                </span>
+                <p style="margin-top:7px; margin-bottom:auto;">Aqui nos estamos riendo</p>
+                <div class="last-name-author" style="margin-bottom: 5px;">
+                    <h5 class="card-title">Que buenas risas</h5>
+                    <div class="pull-right div-comment">
+                        <i class="fa fa-comments comment-icon" aria-hidden="true"></i>
+                        <span class="comment-amount">1450</span>
+                    </div>
+                </div>
+                <hr style="margin-top: 2rem;">
+            </div>
+        </div>
+
+        <!-- ########################################## Second row of Two middle cards in a row ##########################################-->
+        <div class="row">
+            <!-- Middle card One -->
+            <div class="col-4">
+                <img src="../images/medimg3.jpg" class="img-fluid" alt="">
+                <span class="card-img-overlay">
+                    <mark style="background-color: #3498d8; color:white;">THE BEST FIFA 2019</mark>
+                </span>
+                <p style="margin-top:7px; margin-bottom:auto;">Aqui acostadito con ronaldo</p>
+                <div class="last-name-author" style="margin-bottom: 5px;">
+                    <h5 class="card-title"> hmmmm patas</h5>
+                    <div class="pull-right div-comment">
+                        <i class="fa fa-comments comment-icon" aria-hidden="true"></i>
+                        <span class="comment-amount">1450</span>
+                    </div>
+                </div>
+                <hr style="margin-top: 2rem;">
+            </div>
+            <!-- Middle card Two -->
+            <div class="col-4">
+                <img src="../images/medimg4.jpg" class="img-fluid" alt="">
+                <span class="card-img-overlay">
+                    <mark style="background-color: #3498d8; color:white;">THE BEST FIFA 2019</mark>
+                </span>
+                <p style="margin-top:7px; margin-bottom:auto;">Asi me quede ira 0.0</p>
+                <div class="last-name-author" style="margin-bottom: 5px;">
+                    <h5 class="card-title">Suplicando y sorpresas</h5>
+                    <div class="pull-right div-comment">
+                        <i class="fa fa-comments comment-icon" aria-hidden="true"></i>
+                        <span class="comment-amount">1450</span>
+                    </div>
+                </div>
+                <hr style="margin-top: 2rem;">
+            </div>
+        </div>
+
+        <!-- ########################################## Three middle cards in a row ##########################################-->
+        <div class="row">
+            <!-- Middle card One -->
+            <div class="col-4">
+                <img src="../images/medimg5.jpg" class="img-fluid" alt="">
+                <span class="card-img-overlay">
+                    <mark style="background-color: #3498d8; color:white;">ARGENTINA</mark>
+                </span>
+                <div class="last-name-author" style="margin-bottom: 5px; margin-top: 10px;">
+                    <h5 class="card-title">El Boca de Alfaro rompe un nuevo récord y va por más</h5>
+                </div>
+                <hr style="margin-top: 2rem;">
+            </div>
+            <!-- Middle card Two -->
+            <div class="col-4">
+                <img src="../images/medimg6.jpg" class="img-fluid" alt="">
+                <span class="card-img-overlay">
+                    <mark style="background-color: #3498d8; color:white;">MÉXICO</mark>
+                </span>
+                <div class="last-name-author" style="margin-bottom: 5px; margin-top: 10px;">
+                    <h5 class="card-title">Edson Álvarez, protagonista del Clásico de Holanda</h5>
+                </div>
+                <hr style="margin-top: 2rem;">
+            </div>
+            <!-- Middle card Three -->
+            <div class="col-4">
+                <img src="../images/medimg7.jpg" class="img-fluid" alt="">
+                <span class="card-img-overlay">
+                    <mark style="background-color: #3498d8; color:white;">MÉXICO</mark>
+                </span>
+                <div class="last-name-author" style="margin-bottom: 5px; margin-top: 10px;">
+                    <h5 class="card-title">James, la reinvención del diez mas varios</h5>
+                </div>
+                <hr style="margin-top: 2rem;">
+            </div>
+        </div>
+
+        <!-- ########################################## MIDDLE PAGE NEWS DIVIDER##########################################-->
+        <div class="row mt-3 mb-5">
+            <div class="col-12">
+                <hr style="margin-bottom: 1px">
+                <div class="text-center">
+                    <a href="" class="font-weight-bold text-dark" style="font-size: 13px;">Es
+                        noticia:
+                        <a class="text-dark" style="font-size: 13px" href="">The best 2019</a>
+                        <a class="text-dark" style="font-size: 13px" href="">Sevilla Real Madrid</a>
+                        <a class="text-dark" style="font-size: 13px" href="">Final supercopa Baloncesto</a>
+                        <a class="text-dark" style="font-size: 13px" href="">Clasificación liga</a>
+                        <a class="text-dark" style="font-size: 13px" href="">Calendario liga</a>
+                        <a class="text-dark" style="font-size: 13px" href="">Resultados futbol</a>
+                        <a class="text-dark" style="font-size: 13px" href="">Emmy 2019</a>
+                    </a>
+                </div>
+                <hr style="margin-top: 1px">
+            </div>
+        </div>
+
+        <!-- ########################################## Second row of Three middle cards in a row ##########################################-->
+        <div class="row">
+            <!-- Middle card One -->
+            <div class="col-4">
+                <img src="../images/medimg8.jpg" class="img-fluid" alt="">
+                <span class="card-img-overlay">
+                    <mark style="background-color: #3498d8; color:white;">FC BARCELONA</mark>
+                </span>
+                <p style="margin-top:7px; margin-bottom:auto;">Messi: "He estado dos meses parado y lo noto, me siento
+                    pesado, con falta de ritmo"</p>
+                <div class="last-name-author" style="margin-bottom: 5px;">
+                    <h5 class="card-title"> hmmmm patas</h5>
+                    <div class="pull-right div-comment">
+                        <i class="fa fa-comments comment-icon" aria-hidden="true"></i>
+                        <span class="comment-amount">1450</span>
+                    </div>
+                </div>
+                <hr style="margin-top: 2rem;">
+            </div>
+            <!-- Middle card Two -->
+            <div class="col-4">
+                <img src="../images/medimg9.jpg" class="img-fluid" alt="">
+                <span class="card-img-overlay">
+                    <mark style="background-color: #3498d8; color:white;">THE BEST FIFA 2019</mark>
+                </span>
+                <p style="margin-top:7px; margin-bottom:auto;">Ramos: "Si hubiera querido ganar títulos individuales me
+                    habría dedicado al tenis"</p>
+                <div class="last-name-author" style="margin-bottom: 5px;">
+                    <h5 class="card-title">Bien guapos los dos</h5>
+                    <div class="pull-right div-comment">
+                        <i class="fa fa-comments comment-icon" aria-hidden="true"></i>
+                        <span class="comment-amount">1450</span>
+                    </div>
+                </div>
+                <hr style="margin-top: 2rem;">
+            </div>
+            <!-- Middle card Three -->
+            <div class="col-4">
+                <img src="../images/medimg10.jpg" class="img-fluid" alt="">
+                <span class="card-img-overlay">
+                    <mark style="background-color: #3498d8; color:white;">THE BEST FIFA 2019</mark>
+                </span>
+                <p style="margin-top:7px; margin-bottom:auto;">"O se jugaba como jugaba el Barça o aquello no era
+                    fútbol"</p>
+                <div class="last-name-author" style="margin-bottom: 5px;">
+                    <h5 class="card-title">Se le quedo viendo</h5>
+                    <div class="pull-right div-comment">
+                        <i class="fa fa-comments comment-icon" aria-hidden="true"></i>
+                        <span class="comment-amount">1450</span>
+                    </div>
+                </div>
+                <hr style="margin-top: 2rem;">
+            </div>
+        </div>
+
+        <!-- ########################################## Last set of cards, Two middle 2 small on left ##########################################-->
+        <div class="row">
+            <!-- Middle card One -->
+            <div class="col-4">
+                <img src="../images/medimg11.png" class="img-fluid" alt="">
+                <span class="card-img-overlay">
+                    <mark style="background-color: #3498d8; color:white;">ATLETISMO</mark>
+                </span>
+                <p style="margin-top:7px; margin-bottom:auto;">Moha Bakkali, sobre la nacionalización 'exprés' de Ansu
+                    Fati:</p>
+                <div class="last-name-author" style="margin-bottom: 5px;">
+                    <h5 class="card-title">En el solesito</h5>
+                    <div class="pull-right div-comment">
+                        <i class="fa fa-comments comment-icon" aria-hidden="true"></i>
+                        <span class="comment-amount">1450</span>
+                    </div>
+                </div>
+                <hr style="margin-top: 2rem;">
+            </div>
+            <!-- Middle card Two -->
+            <div class="col-4">
+                <img src="../images/medimg12.jpg" class="img-fluid" alt="">
+                <span class="card-img-overlay">
+                    <mark style="background-color: #3498d8; color:white;">NBA</mark>
+                </span>
+                <p style="margin-top:7px; margin-bottom:auto;">Lonzo Ball rompe relaciones con su padre Lavar y lo pone
+                    a lavar</p>
+                <div class="last-name-author" style="margin-bottom: 5px;">
+                    <h5 class="card-title">No sé, Baloncesto?</h5>
+                    <div class="pull-right div-comment">
+                        <i class="fa fa-comments comment-icon" aria-hidden="true"></i>
+                        <span class="comment-amount">1450</span>
+                    </div>
+                </div>
+                <hr style="margin-top: 2rem;">
+            </div>
+
+            <!-- Two small card on left -->
+            <div class="col-4">
+                <!-- First small card -->
+                <div class="media">
+                    <img src="../images/smcard3.jpg" class="mr-3" alt="...">
+                    <div class="media-body">
+                        <div class="mt-0 little-card-title">GANÓ TODO EL NIÑO</div>
+                        <h5 class="little-card-text card-title">Nacer en el espacio como astroboy</h5>
+                        <div class="pull-right div-comment">
+                            <i class="fa fa-comments comment-icon" aria-hidden="true"></i>
+                            <span class="comment-amount" style="font-size: 8pt;">1450</span>
+                        </div>
+                    </div>
+                </div>
+                <hr class="little-card-divider">
+                <!-- Second small card on left -->
+                <div class="media">
+                    <img src="../images/card2.jpg" class="mr-3" alt="...">
+                    <div class="media-body">
+                        <div class="mt-0 little-card-title">COMO LO PREMIARON</div>
+                        <h5 class="little-card-text card-title">Nacer en esta tierra hermosa</h5>
+                        <div class="pull-right div-comment">
+                            <i class="fa fa-comments comment-icon" aria-hidden="true"></i>
+                            <span class="comment-amount" style="font-size: 8pt;">40</span>
+                        </div>
+                    </div>
+                </div>
+                <hr class="little-card-divider">
             </div>
         </div>
     </div>
+
+    <!-- ########################################## footers ##########################################-->
+    <!-- Footer - Categorias -->
+    <div class="container-fluid mt-5 mb-0 bg-black-color">
+        <div class="jumbotron jumbotron mb-0 bg-black-color footer-jumbotron">
+            <div class="text-white text-center font-weight-bold">Otras webs de Unidad Editorial</div>
+            <div class="container">
+                <hr style="border-color:white">
+                <!-- Four category rows -->
+                <div class="row">
+                    <!-- Marca -->
+                    <div class="col-3">
+                        <div class="text-white font-weight-bold">Marca</div>
+
+                        <a class="text-white" href="">App Marca</a>
+                        <br>
+                        <a class="text-white" href="">Clasificación LaLiga</a>
+                        <br>
+                        <a class="text-white" href="">Calendario LaLiga</a>
+                        <br>
+                        <a class="text-white" href="">Hemeroteca Marca</a>
+                        <br>
+                        <a class="text-white" href="">Marca eSports</a>
+                        <br>
+                        <a class="text-white" href="">Marca en Orbyt</a>
+                        <br>
+                        <a class="text-white" href="">Descuentos MARCA</a>
+                    </div>
+                    <!-- Ocio y moda -->
+                    <div class="col-3">
+                        <div class="text-white font-weight-bold">Ocio y Moda</div>
+
+                        <a class="text-white" href="">Tiramillas</a>
+                        <br>
+                        <a class="text-white" href="">Moda - Telva</a>
+                        <br>
+                        <a class="text-white" href="">BUHO Magazine</a>
+                        <br>
+                        <a class="text-white" href="">Traductor</a>
+                        <br>
+                        <a class="text-white" href="">Programación TV</a>
+                        <br>
+                        <a class="text-white" href="">Marca Entradas</a>
+                        <br>
+                        <a class="text-white" href="">Mi bebé y yo</a>
+                    </div>
+                    <!-- Unidad editorial -->
+                    <div class="col-3">
+                        <div class="text-white font-weight-bold">Unidad Editorial</div>
+
+                        <a class="text-white" href="">El Mundo</a>
+                        <br>
+                        <a class="text-white" href="">Expansión</a>
+                        <br>
+                        <a class="text-white" href="">CuídatePlus</a>
+                        <br>
+                        <a class="text-white" href="">Diario Médico</a>
+                        <br>
+                        <a class="text-white" href="">Correo Farmacéutico</a>
+                        <br>
+                        <a class="text-white" href="">Suscripción Marca</a>
+                        <br>
+                        <a class="text-white" href="">Suscripción El Mundo</a>
+                    </div>
+                    <!-- Formación y empleo -->
+                    <div class="col-3">
+                        <div class="text-white font-weight-bold">Formación y Empleo</div>
+
+                        <a class="text-white" href="">Escuela Unidad Editorial</a>
+                        <br>
+                        <a class="text-white" href="">Unidad Editorial</a>
+                        <br>
+                        <a class="text-white" href="">Expansión y Empleo</a>
+                        <br>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer - Politicas y derechos de autor -->
+    <div class="container-fluid" style="background-color: #e9ecef;">
+        <div class="jumbotron jumbotron mb-0 pt-3">
+            <div class="container">
+                <!-- Terms and conditions -->
+                <div class="text-center">
+                    <p class="text-center" style="font-weight: bold;">© Septiembre 2019 Unidad Editorial Información
+                        Deportiva, S.L.U. Todos los derechos reservados.</p>
+                    <a href="" class="text-dark">Términos y condiciones de uso</a>
+                    <a href="" class="text-dark">Política de privacidad</a>
+                    <a href="" class="text-dark">Política de cookies</a>
+                    <a href="" class="text-dark">Certificado por OJD</a>
+                    <a href="" class="text-dark">Contacto</a>
+                    <a href="" class="text-dark">Publicidad</a>
+                    <a href="" class="text-dark">Ayuda</a>
+                    <a href="" class="text-dark">Nuestro equipo</a>
+                    </p>
+                </div>
+                <div class="text-center">
+                    <a href="" class="text-dark">Nuestro equipo</a>
+                </div>
+                <!-- Social media icons -->
+                <div class="text-center mt-4">
+                    <p style="font-weight: 500;">Siguenos en</p>
+                    <div style="font-size: 2rem;">
+                        <i class="fa fa-facebook-square" style="color:#44619d; cursor: pointer;" aria-hidden="true"></i>
+                        <i class="fa fa-twitter-square" style="color:#03a3d8; cursor: pointer;" aria-hidden="true"></i>
+                        <i class="fa fa-rss-square" style="color:#d96d00; cursor: pointer;" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
